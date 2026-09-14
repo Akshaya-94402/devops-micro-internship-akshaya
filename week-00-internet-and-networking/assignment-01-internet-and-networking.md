@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Protocol in Networking](screenshots/week-00-screenshot-01.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,8 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a "protocol is a set of rules" that helps network devices communicate with each other.  
+I also learned how protocols work using a simple real-life example, like sending a message to a friend.
 
 ---
 
@@ -59,7 +60,9 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+### Answer (100–150 words)
+
+When a user anywhere in the world opens the **EpicReads** website hosted in Finland, several networking processes happen. First, the website is identified using its **IP address**, which tells the network where the server is located. The user's request is divided into small units called **packets**. Using **packet switching**, these packets travel through different networks and routers to reach the EpicReads server in Finland. **TCP/IP** is the main communication protocol suite that manages addressing, routing, and reliable delivery of these packets. Once the request reaches the server, **HTTP/HTTPS** is used for communication between the user's browser and the website. HTTPS provides secure and encrypted communication. The server then sends the requested webpage back as packets, which travel through the network and are reassembled by the user's device. Thus, users globally can access EpicReads reliably and securely.
 
 ---
 
@@ -91,7 +94,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Two-Tier Application & Three-Tier Application](screenshots/week-00-screenshot-02.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +105,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML, CSS, JavaScript
+* HTML, CSS / React
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js, Python
+* Node.js, Python
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL, PostgreSQL
+* MySQL, PostgreSQL
 
 ---
 
@@ -142,7 +145,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+**DNS (Domain Name System)** is like the **phonebook of the Internet**. It converts an easy-to-remember domain name, such as **epicreads.com**, into an IP address that computers can understand.  
+
+To connect **epicreads.com** to **52.172.142.222**, an **A (Address) record** should be used because an A record maps a domain name to an **IPv4 address**. When a user enters `epicreads.com`, DNS finds the A record and returns `52.172.142.222`. The `:3000` part is a **port number**, not part of the DNS A record.
 
 ---
 
@@ -178,7 +183,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code environment](screenshots/week-00-screenshot-03.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -237,7 +242,7 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/akshaya-bheemanathi-8618a2423_dmibypravinmishra-agenticai-devops-activity-7505145961980207104-yn9s?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGtzzEkBOYmQK2WIK_NOclE5XNXW4ISP3qk
 ```
 
 ---
@@ -246,7 +251,37 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+🚀 My DMI Week 0 Learning Journey|Internet & Networking
+I’m excited to begin my DevOps Micro Internship (DMI) with Agentic AI journey! 💻🌐
+As a B.Tech 3rd-year Computer Science Engineering student, I’m using this opportunity to strengthen my technical foundation, explore DevOps concepts, and gain practical knowledge through hands-on tasks.
+Here’s what I worked on 👇
+🤖 ChatGPT
+I learned how to create clear and effective prompts to get better explanations from AI. I also understood how ChatGPT can help simplify technical concepts by providing real-life examples and beginner-friendly explanations.
+🌐 Internet & Networking
+I learned the basics of how the Internet works behind the scenes. I explored networking protocols, packet switching, IP addresses, and TCP/IP.
+I understood that when a user accesses a website hosted in another country, data is divided into packets and travels through different networks and routers before reaching the destination.
+🏗️ App Architecture
+I learned about Two-Tier and Three-Tier Application Architecture.
+In Two-Tier Architecture, the Frontend communicates directly with the Database.
+In Three-Tier Architecture, the application is divided into Frontend, Backend, and Database, making the system more organized, scalable, and easier to maintain.
+🌍 DNS
+I learned about the Domain Name System (DNS) and how it works like the Internet's phonebook.
+Instead of remembering an IP address such as 52.172.142.222, users can access a website using an easy domain name such as epicreads.com.
+I also learned about the A record, which connects a domain name to an IPv4 address.
+💻 VS Code Setup
+I set up and explored Visual Studio Code and learned how to use the integrated terminal. I practiced basic terminal commands and became more comfortable with my development environment.
+📚 Key Takeaways
+This week helped me understand that DevOps is not only about tools but also about understanding how applications, networks, servers, and users connect together.
+I’m looking forward to learning more about Linux, Git & GitHub, cloud computing, CI/CD, Docker, and other DevOps technologies in the upcoming weeks. 🚀
+This is just the beginning of my learning journey, and I’m excited to learn → practice → build → improve step by step. 🌱
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. 
+My graded progress is public:[**https://lnkd.in/dPVEsRzA) **·
+ Start your DevOps journey:** [**https://lnkd.in/dpCPmvrp)
+Pravin Mishra,Lead Co-Mentor-Anjana Muthunayake
+
+hashtag#DMIByPravinMishra hashtag#AgenticAI hashtag#DevOps hashtag#DevOpsJourney hashtag#ComputerScience hashtag#BTechCSE hashtag#LearningJourney hashtag#Networking hashtag#GitHub hashtag#VSCode hashtag#Technology hashtag#StudentDeveloper
+
+
 
 ---
 
@@ -254,19 +289,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found it easy to understand basic networking concepts and create simple diagrams. I also enjoyed exploring GitHub and VS Code.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+I found GitHub tasks and some networking concepts a little difficult at first, but I understood them better with practice.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will improve my GitHub skills, practice more technical concepts, and try to complete tasks more independently.
 
 ---
 
