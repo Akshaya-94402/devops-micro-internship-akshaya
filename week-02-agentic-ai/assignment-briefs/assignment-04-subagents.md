@@ -144,6 +144,53 @@ Review my Terraform infrastructure for cost optimization.
 
 ---
 
+### Task 5 — Share Your AI Team Achievement on LinkedIn
+
+**Goal:** Showcase the specialized AI subagents you built and explain what you learned from working with them.
+
+You have successfully built your first AI team using Claude Code. Now, share this achievement with your professional network.
+
+**Steps:**
+
+1. Go to the **DMI Leaderboard**.
+2. Find your name.
+3. Select **Share your progress**.
+4. Click the **LinkedIn icon**.
+5. The LinkedIn sharing window will open with your leaderboard progress link.
+6. Add the post content provided below.
+7. Replace the GitHub repository placeholder with your own repository URL.
+8. Make sure you keep the automatically generated leaderboard link in the post.
+9. Review and publish your post.
+
+**LinkedIn Post Template:**
+
+I built my first AI team using Claude Code! 🤖🚀
+
+Instead of relying on one general-purpose AI assistant, I created three specialized subagents:
+
+🔐 **Security Auditor** — reviews Terraform files for potential security risks using read-only access
+
+🛠️ **Terraform Writer** — generates and modifies Terraform configurations
+
+💰 **Cost Optimizer** — analyzes infrastructure and recommends cost-saving improvements
+
+I then delegated real security-auditing and cost-optimization tasks to these agents and reviewed the reports they produced.
+
+My biggest takeaway: an effective AI team needs clear responsibilities, appropriate model selection, and only the tools required for each task. This separation makes agentic workflows easier to understand, control, and improve.
+
+You can view my learning progress on the DMI Leaderboard using the link below.
+
+#AgenticAI #ClaudeCode #Subagents #DevOps #Terraform #AIEngineering #ContinuousLearning
+
+**Expected Output:** A published LinkedIn post showcasing the three specialized subagents, your GitHub repository, and the leaderboard progress link generated through the DMI Leaderboard.
+
+**Screenshots Required:**
+
+- Screenshot 7 — Published LinkedIn post showing your post content and leaderboard progress link visible.
+
+---
+
+
 ## 8. Industry Insight
 
 The most common mistake teams make when adopting agentic AI is building one large general-purpose agent and giving it every tool and every capability. This works until something goes wrong — and then it is very hard to diagnose. The subagent pattern solves this. When a security audit runs on read-only tools and produces a wrong result, you know exactly where to look: the agent body and its checklist. Small, focused agents are easier to debug, easier to trust, and easier to improve over time. Start small. Specialize deliberately.
@@ -156,11 +203,8 @@ Complete all tasks in sequence.
 
 Your submission must include:
 - All 6 required screenshots
-- 3 written answers in the Google Doc (from Task 2)
-- Your GitHub repo URL (agents committed and visible)
-
-Submit only a Google Doc link.
-Follow the Assignment Submission Guidelines — (LINK)
+- Your GitHub repo URL (agents committed and visible, including 3 written answers from Task 2)
+- Linkedin post
 
 ---
 
@@ -173,7 +217,9 @@ Full solution walkthrough → [Click here](../assignment-solutions/assignment-04
 
 ## 11. LinkedIn Requirement
 
-Not required for this assignment.
+Required for this assignment.
+
+Follow the instructions in Task 5.
 
 ---
 
@@ -186,4 +232,5 @@ Before submission, verify:
 - [ ] Security auditor ran and produced a report with findings
 - [ ] Cost optimizer ran and produced a report
 - [ ] Agents committed and visible in GitHub repo
+- [ ] Linkedin post mentioned in task 5
 

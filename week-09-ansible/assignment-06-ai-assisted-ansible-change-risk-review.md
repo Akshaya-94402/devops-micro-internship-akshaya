@@ -1,6 +1,6 @@
 # Assignment 6 — AI-Assisted Ansible Change Risk Review
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -464,7 +464,6 @@ Confirm that the following files are included in your GitHub repository or assig
 - All required notes must be answered clearly.
 - Do not expose SSH private keys, passwords, cloud credentials, database credentials, or secret environment variables.
 - Add your GitHub repository or folder URL inside this document.
-- Submit only your Google Doc link.
 
 ---
 
@@ -486,7 +485,6 @@ Confirm that the following files are included in your GitHub repository or assig
 - [ ] LinkedIn post published
 - [ ] LinkedIn post URL added
 - [ ] No sensitive information exposed
-- [ ] Google Doc is accessible
 
 ---
 
@@ -510,4 +508,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

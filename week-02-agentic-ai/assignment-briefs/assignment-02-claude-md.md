@@ -189,6 +189,24 @@ git push origin main
 
 ---
 
+### **Task 6 — Share Your Progress on WhatsApp**
+
+**Goal:** Celebrate your progress and share your DMI Leaderboard achievement.
+
+1. Go to the **DMI Leaderboard**.
+2. Find your name.
+3. Select **Share your progress**.
+4. Click the **WhatsApp icon**.
+5. Share the automatically generated message containing your leaderboard rank and personal progress link on your WhatsApp Status or with your learning community. (Copy and paste the generated message as WhatsApp Status.)
+
+**Screenshot Required:**
+
+* Screenshot 7 — Your shared WhatsApp Status showing the automatically generated DMI Leaderboard rank and personal progress link
+
+> **Privacy Note:** Make sure no private phone numbers, personal messages, or sensitive information are visible in the screenshot.
+
+---
+
 ## 8. Industry Insight
 
 The CLAUDE.md is where the engineer's knowledge becomes permanent. Every line you write there is an instruction that applies to every session, every command, every file Claude touches — automatically. Senior engineers on agentic teams treat their CLAUDE.md like production code: they version control it, review changes to it, and keep it updated as the project evolves. A 90-line CLAUDE.md written carefully can save weeks of correction across a year of usage.
@@ -200,7 +218,7 @@ The CLAUDE.md is where the engineer's knowledge becomes permanent. Every line yo
 Complete all tasks in sequence.
 
 Your submission must include:
-- All 6 required screenshots
+- All 7 required screenshots
 - Your GitHub repo URL (`CLAUDE.md` must be committed and pushed)
 
 ---
@@ -228,6 +246,7 @@ Before submission, verify:
 [ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
 [ ] Screenshot 5 shows Claude refusing the React request <br>
 [ ] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
+[ ] Screenshot 7 shows your shared WhatsApp Status with the automatically generated DMI Leaderboard rank and personal progress link<br>
 [ ] GitHub repository URL is included in the submission <br>
 
 ---

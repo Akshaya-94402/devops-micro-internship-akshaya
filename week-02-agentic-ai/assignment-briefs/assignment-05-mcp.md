@@ -188,6 +188,56 @@ Use GitHub MCP to get the README.md file from <your-github-username>/Ultimate-Ag
 
 ---
 
+# Task 6 — Share Your MCP Achievement
+
+**Goal**
+
+Share how you connected Claude Code to live GitHub data using MCP.
+
+You have successfully connected Claude Code to an external service using the Model Context Protocol. Share this achievement on **Facebook**. If you do not use Facebook, you may share it on your **WhatsApp Status** instead.
+
+**Option 1 — Share on Facebook**
+
+**Steps**
+
+1. Go to the **DMI Leaderboard**.
+2. Find your name.
+3. Select **Share your progress**.
+4. Click the **Facebook icon**.
+5. Keep the automatically generated leaderboard progress link.
+6. Copy and paste the Facebook post content from the assignment guideline.
+7. Replace the GitHub repository placeholder with your repository URL.
+8. Review and publish your post.
+
+**Option 2 — Share on WhatsApp Status**
+
+If you do not use Facebook, share your achievement on your WhatsApp Status instead.
+
+**Steps**
+
+1. Go to the **DMI Leaderboard**.
+2. Find your name.
+3. Select **Share your progress**.
+4. Click the **WhatsApp icon**.
+5. Copy the automatically generated message containing your rank and progress link.
+6. Open WhatsApp and go to **Updates**.
+7. Create a new text Status.
+8. Copy and paste the WhatsApp Status message from the assignment guideline.
+9. Add the generated leaderboard message beneath it.
+10. Review and publish your Status.
+
+**Expected Output**
+
+Your MCP achievement and automatically generated leaderboard progress link shared on either Facebook or WhatsApp Status.
+
+**Evidence**
+
+**Screenshot 6 — Published Facebook post or WhatsApp Status showing your MCP achievement message and leaderboard progress link visible**
+
+Add your screenshot here.
+
+---
+
 ## 8. Industry Insight
 
 MCP is an open standard — Anthropic created it but anyone can build on top of it. This means the same integration pattern you used for GitHub works identically for hundreds of other tools: Sentry for production errors, PostgreSQL for database queries, Jira for ticket management, Notion for documentation. Once you understand how to configure and verify one MCP server, every other server follows exactly the same pattern. The investment you make here pays off across every agentic tool you use in your career.
@@ -212,9 +262,15 @@ Full solution walkthrough → [Click here](../assignment-solutions/assignment-05
 
 ---
 
-## 11. LinkedIn Requirement
+## 11. Facebook or WhatsApp Sharing Requirement
 
-Not required for this assignment.
+**Required for this assignment.**
+
+Follow the instructions in **Task 6** and share your achievement on Facebook using the provided content.
+
+If you do not use Facebook, copy the automatically generated message from the Share on WhatsApp box and publish it on your WhatsApp Status instead.
+
+**You only need to use one platform.** 
 
 ---
 

@@ -517,6 +517,94 @@ Example:
 
 ---
 
+### Task 9 — Share Your AI Safety Achievement
+
+**Goal:** Share how you built safety controls that prevent an AI agent from performing destructive actions.
+
+You have successfully created safety rails for your AI agent using permissions and three types of hooks. Now, share this achievement on **X**. If you do not use X, you may share it on **LinkedIn** instead.
+
+**Before sharing, ensure that your post and repository do not expose credentials or other sensitive information.**
+
+---
+
+#### Option 1 — Share on X
+
+**Steps:**
+
+1. Go to the **DMI Leaderboard**
+2. Find your name
+3. Select **Share your progress**
+4. Click the **X icon**
+5. Keep the automatically generated leaderboard progress link
+6. Replace the generated message with the content below, but do not remove your leaderboard link
+7. Review and publish the post
+
+**X Post Template:**
+
+```
+I built safety rails for my AI agent! 🛡️
+
+My hooks now block destructive prompts and dangerous Bash commands before execution while logging successful Terraform checks.
+
+Guardrails first. Automation second.
+
+#AgenticAI #ClaudeCode #DevOps
+```
+
+---
+
+#### Option 2 — Share on LinkedIn
+
+If you do not use X, share your achievement on LinkedIn instead.
+
+**Steps:**
+
+1. Go to the **DMI Leaderboard**
+2. Find your name
+3. Select **Share your progress**
+4. Click the **LinkedIn icon**
+5. Keep the automatically generated leaderboard progress link
+6. Copy and paste the LinkedIn post template below
+7. Replace the GitHub repository placeholder with your repository URL
+8. Review and publish the post
+
+**LinkedIn Post Template:**
+
+```
+I built safety rails for my AI agent using Claude Code! 🛡️🤖
+
+Giving an AI agent access to infrastructure tools requires more than automation—it requires guardrails.
+
+For this project, I configured team-level permissions and implemented three hooks:
+
+🛑 UserPromptSubmit — detects and blocks destructive intent before Claude processes the request
+
+🔒 PreToolUse — blocks dangerous Bash commands before they can execute
+
+📝 PostToolUse — records successful Terraform validation and formatting commands
+
+I tested these controls by confirming that a destructive prompt was intercepted, a Terraform destroy command was blocked, and a successful Terraform validation command was recorded in a log.
+
+My key takeaway: safe AI automation requires clear permissions, early validation, and visibility into every important action.
+
+🔗 GitHub Repository: [ADD YOUR GITHUB REPOSITORY LINK]
+
+You can view my learning progress through the leaderboard link included with this post.
+
+#AgenticAI #ClaudeCode #AISafety #DevOps #Terraform #Automation
+```
+
+---
+
+**Expected Output:**
+
+Your AI safety achievement and automatically generated leaderboard progress link shared on either X or LinkedIn.
+
+**Screenshots Required:**
+
+- Screenshot 10 — Published post on X or LinkedIn showing your AI safety achievement message and leaderboard progress link visible
+
+
 ## 8. Industry Insight
 
 The hook architecture in Claude Code mirrors the same pattern used in production CI/CD pipelines — pre-commit hooks, pre-deploy approval gates, and policy-as-code checks. In both cases, the principle is identical: intercept early and block at the lowest cost point. A UserPromptSubmit hook that fires in milliseconds is far cheaper than a Terraform destroy that runs for 10 minutes before someone notices the mistake. Building this habit now — intercepting at the earliest possible point — is one of the most transferable skills in professional DevOps.
@@ -528,7 +616,7 @@ The hook architecture in Claude Code mirrors the same pattern used in production
 Complete all tasks in sequence.
 
 Your submission must include:
-- All 9 required screenshots
+- All 10 required screenshots
 
 ---
 
@@ -539,9 +627,13 @@ Full solution walkthrough → [Click here](../assignment-solutions/assignment-06
 
 ---
 
-## 11. LinkedIn Requirement
+## 11. X or LinkedIn Sharing Requirement
 
-Not required for this assignment.
+**Required for this assignment.**
+
+Follow the instructions in **Task 9** and share your AI safety achievement on **X** using the provided content.
+
+If you do not use X, publish the **LinkedIn** version instead. **You only need to use one platform.**
 
 ---
 
@@ -561,6 +653,8 @@ Before submission, verify:
 - [ ] Destructive prompt test shows UserPromptSubmit blocked the request
 - [ ] Terraform destroy command test shows PreToolUse intercepted the command
 - [ ] Terraform validate test shows PostToolUse created the log entry
+- [ ] AI safety achievement shared on X or LinkedIn
+- [ ] Screenshot of published post with leaderboard progress link visible
 - [ ] All required screenshots are captured
 
 

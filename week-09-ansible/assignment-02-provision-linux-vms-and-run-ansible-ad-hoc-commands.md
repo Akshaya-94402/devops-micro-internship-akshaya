@@ -1,6 +1,6 @@
 # Assignment 02 — Provision Linux VMs with Terraform and Run Ansible Ad-Hoc Commands
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -295,7 +295,6 @@ Confirm that the following files are included in your assignment workspace:
 - Answer all assignment questions clearly in your own words.
 - Add your LinkedIn post URL.
 - Do not expose SSH private keys, Terraform state files, cloud credentials, passwords, access keys, secret keys, account IDs, or subscription IDs.
-- Submit only one Google Doc link.
 
 ---
 
@@ -325,7 +324,6 @@ Confirm that the following files are included in your assignment workspace:
 - [ ] LinkedIn post published
 - [ ] LinkedIn post URL added
 - [ ] No sensitive information is exposed
-- [ ] Google Doc is accessible
 
 ---
 
@@ -349,4 +347,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

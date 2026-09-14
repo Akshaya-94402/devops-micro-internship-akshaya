@@ -1,6 +1,6 @@
 # Assignment 8 — Week 2 Reflection Blog
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -63,28 +63,6 @@ Blog Link:
 ## Goal
 
 Share your Week 2 learning publicly on LinkedIn.
-
----
-
-### LinkedIn Post Requirements
-
-Your post must include:
-
-* One screenshot from any Week 2 assignment
-* Short reflection (what you learned or built)
-* Required P.S. line exactly as given below
-
----
-
-### Required P.S. Line (Must Include Exactly)
-
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
-
----
-
-### Suggested Hashtags
-
-#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 
 ---
 
@@ -153,4 +131,6 @@ It helps learners build strong DevOps foundations through hands-on experience.
 * ▶️ YouTube Playlist: [https://www.youtube.com/playlist?list=PLFeSNDtI4Cho](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho)
 * 🔗 Pravin Mishra (LinkedIn): [https://www.linkedin.com/in/pravin-mishra-aws-trainer/](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 * 🏢 CloudAdvisory (LinkedIn): [https://www.linkedin.com/company/thecloudadvisory/](https://www.linkedin.com/company/thecloudadvisory/)
+---
 
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

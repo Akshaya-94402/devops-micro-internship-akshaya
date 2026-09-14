@@ -1,6 +1,6 @@
 # Capstone Assignment — Deploy the Book Review App Using Terraform and Claude Code Agentic AI
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 

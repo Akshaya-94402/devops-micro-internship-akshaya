@@ -427,7 +427,7 @@ Week-8 is **6 assignment files**, each graded pass/fail — your LinkedIn post a
 
 ### Week 9: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
 
-* **Deadline - __**
+* **Deadline - 11 September 2026**
 
 Week-9 is **6 assignment files**, each graded pass/fail — your LinkedIn post and blog post for the week are scored separately below:
 
@@ -449,13 +449,13 @@ Week-9 is **6 assignment files**, each graded pass/fail — your LinkedIn post a
 
 | S. No. | Item | Comments | Link |
 |--------|------|----------|------|
-| 1 | Week-10 Class Recording | Watch the recording of the Week-10 live class on YouTube | - |
+| 1 | Week-10 Class Recording | Watch the recording of the Week-10 live class on YouTube | https://youtube.com/live/ns7ipNLS0C8?feature=share |
 
 ---
 
 ### Week 10: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
 
-* **Deadline - __**
+* **Deadline - 18 September 2026**
 
 Week-10 is **5 assignment files**, each graded pass/fail — your LinkedIn post and blog post for the week are scored separately below:
 
