@@ -33,7 +33,9 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that being busy does not necessarily mean that a person is progressing. Many people around me think that studying for long hours, completing many tasks, collecting certificates, or constantly learning new topics automatically means they are moving forward. I disagree. Focused work on the right things matters more than simply being busy.
+
+For example, someone who spends two hours building a real project, facing errors, debugging code, and understanding why something failed can learn more than someone who spends six hours only watching tutorials. I also believe that staying comfortable for too long is one of the biggest risks to a career. Real growth comes when we take difficult tasks, make mistakes, and learn to solve problems independently. For me, progress means becoming more capable and confident, not just completing more items on a checklist..
 
 ---
 
@@ -55,23 +57,24 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent practice improves skill more reliably than occasional long study sessions.
 
 ### Evidence from my life
 
-Add your answer here...
+When I studied or practiced coding for a short time every day, I remembered concepts better and found it easier to continue the next day. When I waited and tried to study for many hours at once, I became tired and forgot more of what I learned. The repeated practice gave better results.
 
 ---
 
 ## Truth #2
 
 ### Truth
+Building a project teaches more practical knowledge than only watching tutorials.
 
-Add your answer here...
+
 
 ### Evidence from my life
 
-Add your answer here...
+While watching tutorials, I understood the steps but did not always know how to apply them alone. When I tried creating a project myself, I faced errors and had to search, test, and debug. Solving those problems helped me understand the concepts more deeply.
 
 ---
 
@@ -79,11 +82,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Clear goals make work faster and reduce wasted effort.
 
 ### Evidence from my life
 
-Add your answer here...
+When I started a task without deciding what I wanted to finish, I often moved between different topics and lost time. When I wrote a small, clear goal before starting, I could focus on the required work and complete it more efficiently. The result was better progress with less confusion.
 
 ---
 
@@ -153,13 +156,29 @@ Hashtags:
 
 ## Your Article
 
-Add your answer here...
+My 2.0 Version From Learning to Building
+By 2030, Akshaya Bheemanathi had transformed from a student learning technology concepts into a confident DevOps and software professional who built practical solutions. The change did not happen through certificates alone. It came from consistent practice, real projects, failed attempts, debugging sessions, and a decision to move beyond tutorials.
+
+Akshaya started by strengthening the foundations of networking, Linux, Git, GitHub, cloud computing, Docker, CI/CD, and application deployment. Instead of only reading about these tools, Akshaya built projects that used them together. One early project was a full-stack bookstore application inspired by EpicReads. It included a frontend, backend, database, version control, containerization, and a deployment workflow. The project became an important part of the portfolio because it proved the ability to connect development and operations work.
+
+Over the following years, Akshaya published project documentation, technical notes, and learning reflections through a personal blog and GitHub profile. The GitHub portfolio showed clean repositories, meaningful commit histories, README files, deployment instructions, and working demos. It also included automation projects such as CI/CD pipelines, Docker-based applications, cloud deployments, and monitoring setups.
+
+Akshaya earned relevant certifications in cloud and DevOps technologies after building enough practical experience to understand their purpose. These certifications supported the portfolio but did not replace the project work. The strongest proof of skill remained the ability to explain a system, identify a problem, and build a solution independently.
+
+Akshaya later joined a technology team in a DevOps or cloud engineering role. In that role, Akshaya contributed to improving deployment processes, reducing manual work through automation, and helping developers release applications more reliably. Akshaya also led small project discussions, documented workflows clearly, and supported teammates who were beginning their own learning journeys.
+
+Outside work, Akshaya contributed to the technology community by sharing useful resources, publishing beginner-friendly posts, and encouraging students to build before waiting to feel fully ready. This 2.0 version was not defined only by a job title or income. It was defined by the ability to learn independently, build useful systems, solve real problems, and create visible proof of growth.
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public:https://github.com/Akshaya-94402/devops-micro-internship-akshaya.git· Start your DevOps journey:  https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
+
+
+#DMIByPravinMishra #AgenticAI #DevOps
 
 ### Public Link
 
 Paste your link here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/akshaya-bheemanathi-8618a2423_dmi-devops-micro-internship-with-agentic-activity-7505577092655435776-rQ6M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGtzzEkBOYmQK2WIK_NOclE5XNXW4ISP3qk
 
 ---
 
@@ -191,7 +210,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes
+
+I felt guilty and stressed because I knew that taking a shortcut was not a fair reflection of my actual effort or ability. At first, it seemed like an easy way to save time or avoid difficulty, but afterward I felt less confident about the result. I also worried that someone might discover it or that I would be unable to explain the work properly. The experience taught me that short-term convenience can create longer-term anxiety and regret. I felt better when I returned to doing the work honestly and learned from my mistakes.
 
 ---
 
@@ -217,16 +238,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. *Atomic Habits* — James Clear  
+2. *Deep Work* — Cal Newport  
+3. *The Psychology of Money* — Morgan Housel  
+4. *The 7 Habits of Highly Effective People* — Stephen R. Covey  
+5. *How to Win Friends and Influence People* — Dale Carnegie  
+6. *The Lean Startup* — Eric Ries  
+7. *Mindset* — Carol S. Dweck  
+8. *The Almanack of Naval Ravikant* — Eric Jorgenson  
+9. *Make Time* — Jake Knapp and John Zeratsky  
+10. *The Effective Engineer* — Edmond Lau  
 
 ---
 
@@ -255,16 +276,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+- Learning hours per week  
+- New technical skills practiced  
+- Projects built and shipped  
+- GitHub contributions and portfolio updates  
+- Deep work sessions per week  
+- Daily screen time and distractions  
+- Steps, workouts, and physical activity  
+- Sleep hours and energy level  
+- Monthly spending and savings  
+- Career goals, applications, and professional connections  
 
 ---
 
@@ -290,7 +311,9 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
+
+**Reason:** I wrote down my pending tasks, learning goals, career plans, personal responsibilities, worries, and ideas. Doing this helped me clear my mind and identify what needs immediate attention. It also made it easier to organize my priorities instead of trying to remember everything at once.
 
 ---
 
@@ -308,7 +331,11 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+- Monday to Thursday: 60–90 minutes of focused learning and project work after classes.
+- Friday: Revise the week’s concepts and complete any pending tasks.
+- Saturday: Attend or complete DMI learning sessions and work on practical DevOps exercises.
+- Sunday: Review progress, update GitHub or notes, plan the next week, and take time to rest.
+- Daily: Spend 20–30 minutes reading, practicing communication, or reviewing technical concepts.
 
 ---
 
@@ -316,11 +343,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday to Thursday from 7:00 PM to 8:30 PM, Friday from 6:30 PM to 7:30 PM, and Saturday from 10:00 AM to 12:00 PM.
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+Six focused sessions per week.
 
 ---
 
@@ -334,36 +361,39 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
-
+- Keep my phone on silent and away from my study desk during focus sessions.  
+- Do not use social media until the planned session is completed.  
+- Keep only the required browser tabs, notes, and applications open.  
+- Use a clean, quiet study space with water and required materials ready before starting.  
+- Take a short break only after completing a planned task or focus block.  
 ---
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that I make better progress when I have a clear system instead of depending on motivation. I also understood that I learn more when I work on difficult problems and actually try to solve them instead of always looking for the easiest way. My progress depends more on consistency and focused effort than on being busy.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+My biggest weakness is sometimes delaying important tasks when I feel overwhelmed by college work, projects, or multiple responsibilities. This can lead to last-minute pressure and make me focus more on completing the task than learning from it. I noticed that I need to break large tasks into smaller steps and start them earlier.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will follow a daily 60-minute focused career-learning block from 7:00 PM to 8:00 PM, Monday to Thursday. During this time, I will keep my phone away, avoid social media, and work on DMI, coding, AI/ML learning, or my current project. Every Sunday evening, I will review my progress and plan the following week.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
+https://lnkd.in/p/dxrkM7Rx
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL:https://lnkd.in/p/dxrkM7Rx 
+- Blog / Medium :https://medium.com/@akshayabheemanathi75/week-01-building-my-mindset-os-for-long-term-growth-d87e67fb1542?sharedUserId=akshayabheemanathi75  
 
 ---
 
