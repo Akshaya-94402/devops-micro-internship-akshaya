@@ -169,7 +169,7 @@ Akshaya later joined a technology team in a DevOps or cloud engineering role. In
 
 Outside work, Akshaya contributed to the technology community by sharing useful resources, publishing beginner-friendly posts, and encouraging students to build before waiting to feel fully ready. This 2.0 version was not defined only by a job title or income. It was defined by the ability to learn independently, build useful systems, solve real problems, and create visible proof of growth.
 
-P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:· Start your DevOps journey: [DMI](https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3)
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:https://github.com/Akshaya-94402/devops-micro-internship-akshaya.git· Start your DevOps journey: [DMI](https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3)
 
 #DMIByPravinMishra #AgenticAI #DevOps
 
