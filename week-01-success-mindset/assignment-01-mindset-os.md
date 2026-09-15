@@ -33,7 +33,9 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that being busy does not necessarily mean that a person is progressing. Many people around me think that studying for long hours, completing many tasks, collecting certificates, or constantly learning new topics automatically means they are moving forward. I disagree. Focused work on the right things matters more than simply being busy.
+
+For example, someone who spends two hours building a real project, facing errors, debugging code, and understanding why something failed can learn more than someone who spends six hours only watching tutorials. I also believe that staying comfortable for too long is one of the biggest risks to a career. Real growth comes when we take difficult tasks, make mistakes, and learn to solve problems independently. For me, progress means becoming more capable and confident, not just completing more items on a checklist..
 
 ---
 
@@ -55,11 +57,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent practice improves skill more reliably than occasional long study sessions.
 
 ### Evidence from my life
 
-Add your answer here...
+When I studied or practiced coding for a short time every day, I remembered concepts better and found it easier to continue the next day. When I waited and tried to study for many hours at once, I became tired and forgot more of what I learned. The repeated practice gave better results.
 
 ---
 
@@ -67,11 +69,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Building a project teaches more practical knowledge than only watching tutorials.
 
 ### Evidence from my life
 
-Add your answer here...
+While watching tutorials, I understood the steps but did not always know how to apply them alone. When I tried creating a project myself, I faced errors and had to search, test, and debug. Solving those problems helped me understand the concepts more deeply.
 
 ---
 
@@ -79,11 +81,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Clear goals make work faster and reduce wasted effort.
 
 ### Evidence from my life
 
-Add your answer here...
+When I started a task without deciding what I wanted to finish, I often moved between different topics and lost time. When I wrote a small, clear goal before starting, I could focus on the required work and complete it more efficiently. The result was better progress with less confusion.
 
 ---
 
