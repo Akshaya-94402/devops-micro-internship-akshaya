@@ -155,7 +155,27 @@ Hashtags:
 
 ## Your Article
 
-Add your answer here...
+# My 2.0 Version From Learning to Building
+
+By 2030, Akshaya Bheemanathi had transformed from a student learning technology concepts into a confident DevOps and software professional who built practical solutions. The change did not happen through certificates alone. It came from consistent practice, real projects, failed attempts, debugging sessions, and a decision to move beyond tutorials.
+
+Akshaya started by strengthening the foundations of networking, Linux, Git, GitHub, cloud computing, Docker, CI/CD, and application deployment. Instead of only reading about these tools, Akshaya built projects that used them together. One early project was a full-stack bookstore application inspired by EpicReads. It included a frontend, backend, database, version control, containerization, and a deployment workflow. The project became an important part of the portfolio because it proved the ability to connect development and operations work.
+
+Over the following years, Akshaya published project documentation, technical notes, and learning reflections through a personal blog and GitHub profile. The GitHub portfolio showed clean repositories, meaningful commit histories, README files, deployment instructions, and working demos. It also included automation projects such as CI/CD pipelines, Docker-based applications, cloud deployments, and monitoring setups.
+
+Akshaya earned relevant certifications in cloud and DevOps technologies after building enough practical experience to understand their purpose. These certifications supported the portfolio but did not replace the project work. The strongest proof of skill remained the ability to explain a system, identify a problem, and build a solution independently.
+
+Akshaya later joined a technology team in a DevOps or cloud engineering role. In that role, Akshaya contributed to improving deployment processes, reducing manual work through automation, and helping developers release applications more reliably. Akshaya also led small project discussions, documented workflows clearly, and supported teammates who were beginning their own learning journeys.
+
+Outside work, Akshaya contributed to the technology community by sharing useful resources, publishing beginner-friendly posts, and encouraging students to build before waiting to feel fully ready. This 2.0 version was not defined only by a job title or income. It was defined by the ability to learn independently, build useful systems, solve real problems, and create visible proof of growth.
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:· Start your DevOps journey: [DMI](https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3)
+
+#DMIByPravinMishra #AgenticAI #DevOps
+
+### Public Link
+
+Add your published LinkedIn, Medium, WordPress, Blogspot, portfolio, or personal blog URL here.
 
 ### Public Link
 
