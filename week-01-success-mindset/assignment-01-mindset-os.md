@@ -72,7 +72,7 @@ Building a project teaches more practical knowledge than only watching tutorials
 
 
 
-=======
+
 Building a project teaches more practical knowledge than only watching tutorials.
 
 
