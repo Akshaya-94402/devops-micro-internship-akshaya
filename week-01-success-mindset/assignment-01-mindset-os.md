@@ -71,10 +71,10 @@ When I studied or practiced coding for a short time every day, I remembered conc
 Building a project teaches more practical knowledge than only watching tutorials.
 
 
-<<<<<<< HEAD
+
 =======
 Building a project teaches more practical knowledge than only watching tutorials.
->>>>>>> origin/main
+
 
 ### Evidence from my life
 
@@ -160,12 +160,12 @@ Hashtags:
 
 ## Your Article
 
-<<<<<<< HEAD
+
 My 2.0 Version From Learning to Building
 =======
 # My 2.0 Version From Learning to Building
 
->>>>>>> origin/main
+
 By 2030, Akshaya Bheemanathi had transformed from a student learning technology concepts into a confident DevOps and software professional who built practical solutions. The change did not happen through certificates alone. It came from consistent practice, real projects, failed attempts, debugging sessions, and a decision to move beyond tutorials.
 
 Akshaya started by strengthening the foundations of networking, Linux, Git, GitHub, cloud computing, Docker, CI/CD, and application deployment. Instead of only reading about these tools, Akshaya built projects that used them together. One early project was a full-stack bookstore application inspired by EpicReads. It included a frontend, backend, database, version control, containerization, and a deployment workflow. The project became an important part of the portfolio because it proved the ability to connect development and operations work.
@@ -178,7 +178,7 @@ Akshaya later joined a technology team in a DevOps or cloud engineering role. In
 
 Outside work, Akshaya contributed to the technology community by sharing useful resources, publishing beginner-friendly posts, and encouraging students to build before waiting to feel fully ready. This 2.0 version was not defined only by a job title or income. It was defined by the ability to learn independently, build useful systems, solve real problems, and create visible proof of growth.
 
-<<<<<<< HEAD
+
 P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public:https://github.com/Akshaya-94402/devops-micro-internship-akshaya.git· Start your DevOps journey:  https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
 
 
@@ -191,7 +191,7 @@ P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — 
 ### Public Link
 
 Add your published LinkedIn, Medium, WordPress, Blogspot, portfolio, or personal blog URL here.
->>>>>>> origin/main
+
 
 ### Public Link
 
