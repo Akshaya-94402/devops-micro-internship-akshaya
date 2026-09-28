@@ -73,8 +73,8 @@ Week 00 → Internet & Networking Basics
  Week 01 → Success Mindset
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+Week 02 → Agentic AI with Claude Code
+ [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux & Bash for DevOps -->
 <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
@@ -132,7 +132,7 @@ Week 00 → Internet & Networking Basics
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅Completed|✅Solved|https://lnkd.in/p/djscjM2F|https://medium.com/@akshayabheemanathi75/my-week-0-devops-journey-understanding-the-internet-networking-ebe19aa0ab6a?sharedUserId=akshayabheemanathi75|
 | 01 | Success Mindset |✅Completed|✅Solved |https://lnkd.in/p/dxrkM7Rx|https://medium.com/@akshayabheemanathi75/week-01-building-my-mindset-os-for-long-term-growth-d87e67fb1542?sharedUserId=akshayabheemanathi75|
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code |✅Completed|✅Solved|https://lnkd.in/p/dHwQ2T27|https://medium.com/@akshayabheemanathi75/week-02-reflection-agentic-ai-37b0c4c514dd?sharedUserId=akshayabheemanathi75|
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |

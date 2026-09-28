@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![alt text](screenshots/week-02-screenshot-49.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`Add your URL here`
+https://medium.com/@akshayabheemanathi75/week-02-reflection-agentic-ai-37b0c4c514dd?sharedUserId=akshayabheemanathi75
 
 ---
 
@@ -70,7 +70,7 @@ Share your Week 2 learning publicly on LinkedIn.
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![alt text](screenshots/week-02-screenshot-50.png)
 
 ---
 
@@ -79,14 +79,31 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+👉  Week-2 Learning
+🚀 DevOps Micro Internship with Agentic AI — Week 2 Completed!
+I’m happy to share my Week 2 learning journey as part of the DevOps Micro Internship (DMI)! 🎯
+This week, I learned how Agentic AI can support DevOps workflows and help developers work in a more structured and efficient way.
+🔹 What I learned this week:
+✅ Claude Code & Agentic AI — I learned how an AI coding agent can understand a project, follow instructions, and perform tasks using an agentic workflow.
+✅ CLAUDE.md & Project Memory — I learned how project instructions and memory can help maintain consistency across different sessions.
+✅ Skills & Hooks — I explored how custom skills and hooks can be used to create controlled and repeatable development workflows.
+✅ Permissions & Safety — I understood the importance of controlling what tools and commands an AI agent can execute.
+The biggest takeaway for me was that Agentic AI is not just about asking AI to write code. It is about giving the right context, defining rules, verifying results, and building a reliable workflow. 🤖⚙️
+I also learned to follow a simple system:
+Read → Plan → Do → Verify → Document ✅
+I’ll continue using this approach in my future DevOps projects to reduce mistakes and keep my work organized.
+Thank you Pravin Mishra for providing this opportunity to learn DevOps with Agentic AI. 🙌
+P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://lnkd.in/dZtUyfDs
+Start your DevOps journey: https://lnkd.in/dkiFgTsp
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
+@Pravin Mishra 👨‍💻
 ```
-
+![alt text](screenshots/week-02-screenshot-50.png)
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+https://lnkd.in/p/dHwQ2T27
 
 ---
 
@@ -102,15 +119,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅] Blog written with required structure
+* [✅] Blog includes at least 2–3 Week 2 topics
+* [✅] Blog is publicly accessible
+* [✅] LinkedIn post created
+* [✅] Required P.S. line included
+* [✅] LinkedIn post content copied in submission field
+* [✅] Blog link added
+* [✅] LinkedIn post link added
+* [✅] Screenshots added to GitHub repo
 
 ---
 
