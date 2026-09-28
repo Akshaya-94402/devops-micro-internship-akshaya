@@ -1,4 +1,4 @@
-# Assignment 5 — Sharing the Docker Container on Docker Hub
+# Assignment 5 — Publish a Docker Container on Docker Hub
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
