@@ -4,7 +4,7 @@
 
 ## 1. Assignment Overview
 
-**Assignment:** Setup & Agentic Loop     
+**Assignment:** Your First Agentic Session     
 **Estimated Time:** 60 minutes     
 **Difficulty:** Beginner      
 **Category:** Agentic AI, Claude Code Setup     
@@ -13,7 +13,7 @@
 
 ## 2. Objective
 
-Install and authenticate Claude Code CLI and VS Code extension, fork and clone the course starter [repository](https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code), and observe how the Agentic Loop works before any configuration is in place.
+Install and authenticate Claude Code CLI, fork and clone the course starter [repository](https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code), and observe how the Agentic Loop works before any configuration is in place.
 
 ---
 
@@ -49,8 +49,8 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 - Node.js and npm installed (`node --version` works)
 - Git installed and configured (Verify using `git --version`)
 - GitHub account
-- VS Code installed (Vrify using `code --version`)
-- Claude subscription (Pro plan minimum)
+- VS Code installed (Verify using `code --version`)
+- Claude subscription 
 
 ---
 
@@ -127,8 +127,8 @@ How many lines of CSS does this project have?
 ```
 
 **Expected Output:**
-- Question 1: Claude lists the files and describes each one, showing it read them first
-- Question 2: Claude runs a command like `wc -l style.css` and reports the exact number
+- Claude lists the files and describes each one, showing it read them first
+- Claude runs a command like `wc -l style.css` and reports the exact number
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)

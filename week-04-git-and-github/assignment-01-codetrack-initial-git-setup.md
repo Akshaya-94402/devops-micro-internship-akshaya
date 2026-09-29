@@ -66,6 +66,20 @@ Add your screenshot here.
 
 ---
 
+# Task 4 — Share Your Git Setup Progress
+
+## Goal
+
+Share your Git setup progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 5 — Published WhatsApp Status showing your Git setup message and leaderboard progress link
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Add all required screenshots in your submission
@@ -76,11 +90,20 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
-- [ ] Explanation of the `.git` folder written in your own words
-- [ ] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [ ] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [ ] No sensitive data exposed
+Before submission, verify:
+
+- All tasks completed in sequence
+- CodeTrack initialized as a Git repository
+- .git folder visible in the required evidence
+- Local user.name and user.email configured and verified
+- Global user.name and user.email configured and verified
+- All four Git setup screenshots included and readable
+- Explanation of the .git folder written in your own words
+- WhatsApp Status shared for Task 4
+- WhatsApp Status screenshot included and readable
+- Leaderboard progress link visible in the WhatsApp Status screenshot
+- No sensitive data exposed
+
 
 ---
 

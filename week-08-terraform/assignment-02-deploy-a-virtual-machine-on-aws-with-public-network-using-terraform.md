@@ -156,10 +156,26 @@ Add your screenshot here.
 
 ---
 
+# Task 6 — Share Your Terraform Progress
+
+## Goal
+
+Share your AWS Terraform deployment progress by using either Facebook or WhatsApp from the DMI Leaderboard.
+
+### Evidence
+
+#### Screenshot 11 — Published Facebook post/Story or WhatsApp Status showing Terraform deployment progress and DMI Leaderboard progress link
+
+Add your screenshot here.
+
+> Use Screenshot 6 — successful `terraform apply` output — as the assignment image for your post or Status. Ensure that no AWS credentials, private keys, account IDs, private phone numbers, or personal messages are visible.
+
+---
+
 # Submission Instructions
 
 * Complete all tasks in sequence.
-* Include all required screenshots specified in Tasks 0–5.
+* Include all required screenshots specified in Tasks 0–6.
 * Ensure that your full name is visible in the required screenshots.
 * Record the EC2 public IP address in Task 3.
 * Follow the screenshot requirements exactly as specified.
@@ -195,7 +211,9 @@ Add your screenshot here.
 * [ ] Verified that the AWS public IP matches the Terraform output
 * [ ] Verified Nginx access through the EC2 public IP
 * [ ] Completed `terraform destroy` successfully
-* [ ] Captured all 10 required screenshots
+* [ ] Shared Terraform deployment progress on Facebook or WhatsApp by following Task 6
+* [ ] Captured a screenshot of the published Facebook post/Story or WhatsApp Status
+* [ ] Captured all 11 required screenshots
 * [ ] Confirmed that my full name is visible in the required screenshots
 * [ ] Checked that no AWS credentials, private keys, passwords, account IDs, or other sensitive information are visible
 * [ ] Confirmed that no `.pem` private key file has been uploaded to the GitHub repository

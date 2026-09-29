@@ -8,17 +8,27 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 In this assignment, you will build both a single-stage and an optimized multi-stage Docker image for a React application, compare the resulting image sizes, and deploy the optimized version using a production-ready Nginx runtime container.
 
+Complete this assignment locally on your own computer where Docker is installed and running.
+
 ---
 
 # Task 1 — Prepare the Project
 
 ## Goal
 
-Clone `https://github.com/pravinmishraaws/my-react-app.git` and create a `.dockerignore` excluding `node_modules`, `build`, and `.env`.
+Prepare the React application for Docker image creation.
 
 ### Evidence
 
-#### Screenshot 1 — Contents of the `.dockerignore` file
+#### Screenshot 1 — Contents of the `.dockerignore` File
+
+Add a screenshot of the terminal showing:
+
+```bash
+cat .dockerignore
+```
+
+The file must exclude `node_modules`, `build`, and `.env`.
 
 Add your screenshot here.
 
@@ -28,17 +38,27 @@ Add your screenshot here.
 
 ## Goal
 
-Create `Dockerfile.single`, build `react-single`, and run it on port 3000.
+Create a baseline single-stage Docker image and run the application on port 3000.
 
 ### Evidence
 
 #### Screenshot 2 — Contents of `Dockerfile.single`
 
+Add a screenshot showing the completed `Dockerfile.single`.
+
 Add your screenshot here.
 
 ---
 
-#### Screenshot 3 — Browser displaying the application running from the single-stage container
+#### Screenshot 3 — Single-Stage Application in Browser
+
+Add a screenshot of the browser showing the application at:
+
+```text
+http://localhost:3000
+```
+
+Ensure that your full name is visible in the application.
 
 Add your screenshot here.
 
@@ -48,17 +68,27 @@ Add your screenshot here.
 
 ## Goal
 
-Create a multi-stage Dockerfile with separate build and Nginx runtime stages, build `react-multistage`, and run it on port 80.
+Create an optimized multi-stage Docker image with separate builder and Nginx runtime stages, then run the application on port 80.
 
 ### Evidence
 
-#### Screenshot 4 — Contents of the multi-stage Dockerfile
+#### Screenshot 4 — Contents of the Multi-Stage Dockerfile
+
+Add a screenshot showing the completed multi-stage `Dockerfile`.
 
 Add your screenshot here.
 
 ---
 
-#### Screenshot 5 — Browser displaying the application running from the multi-stage container
+#### Screenshot 5 — Multi-Stage Application in Browser
+
+Add a screenshot of the browser showing the application at:
+
+```text
+http://localhost
+```
+
+Ensure that your full name is visible in the application.
 
 Add your screenshot here.
 
@@ -72,9 +102,40 @@ Compare the single-stage and multi-stage image sizes and calculate the percentag
 
 ### Evidence
 
-#### Screenshot 6 — Docker image list showing both image sizes
+#### Screenshot 6 — Docker Image Size Comparison
+
+Add a screenshot of the terminal showing:
+
+```bash
+docker images
+```
+
+The output must include both:
+
+```text
+react-single:latest
+react-multistage:latest
+```
 
 Add your screenshot here.
+
+---
+
+### Percentage Reduction Calculation
+
+Record the image sizes and calculate the reduction using the same unit for both images.
+
+```text
+Single-stage image size: Add size here
+
+Multi-stage image size: Add size here
+
+Percentage reduction =
+((Single-stage image size − Multi-stage image size)
+÷ Single-stage image size) × 100
+
+Percentage reduction: Add result here
+```
 
 ---
 
@@ -82,21 +143,20 @@ Add your screenshot here.
 
 ## Goal
 
-Write a 5–8 line analysis covering the percentage reduction, security benefits, reduced attack surface, faster distribution, and one build-caching optimization used.
-
-### Evidence
-
-#### Screenshot 7 — Analysis included in your submission document
-
-Add your screenshot here.
-
----
+Evaluate the advantages of using multi-stage Docker builds.
 
 ### Notes
 
-Write your analysis here.
+Write a short analysis of 5–8 lines covering:
 
-Write your answer here.
+- The single-stage and multi-stage image sizes
+- The percentage reduction in image size
+- Security benefits of the smaller runtime image
+- How a smaller runtime image reduces the attack surface
+- How smaller images improve image pull and deployment speed
+- One Docker build-caching optimization you used
+
+Write your analysis here.
 
 ---
 
@@ -104,19 +164,28 @@ Write your answer here.
 
 ## Goal
 
-Optionally configure an Nginx health check, cache headers, parameterized ports via environment variables, or a lighter runtime image, and compare results.
+Explore one or more additional production optimization techniques.
 
-> Screenshot optional.
+### Optional Work
+
+You may choose to:
+
+- Configure an Nginx health check
+- Configure cache headers for static assets
+- Experiment with a lighter runtime image
+- Compare the resulting image size with your original multi-stage image
+
+Screenshots are optional.
 
 ---
 
-# LinkedIn Post (Optional)
+# LinkedIn Requirement
 
 ## Goal
 
-Create a LinkedIn post describing what you built, what a multi-stage Docker build is, the image size reduction achieved, and key learnings.
+Create a LinkedIn post describing what you built, what a multi-stage Docker build is, the image-size reduction achieved, and key learnings from the assignment.
 
-## Evidence
+### Evidence
 
 #### LinkedIn Post URL
 
@@ -126,29 +195,45 @@ Paste your LinkedIn post URL here:
 
 ---
 
-#### Screenshot — Published LinkedIn post
+#### LinkedIn Post Screenshot
 
-Add your screenshot here.
+Add a screenshot of the published LinkedIn post here.
 
 ---
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
-- Full name must be visible in required screenshots
-- Do not expose sensitive information
+- Complete all required tasks in sequence.
+- Include Screenshots 1–6 exactly as specified.
+- Include the percentage-reduction calculation and Task 5 analysis.
+- Include the LinkedIn post URL and screenshot.
+- Ensure that your full name is visible in all required screenshots.
+- Do not expose passwords, keys, tokens, account IDs, or other sensitive information.
 
 ---
 
 # Completion Checklist
 
-- [ ] Task 1: `.dockerignore` created (Screenshot 1)
-- [ ] Task 2: Single-stage image built and verified (Screenshots 2–3)
-- [ ] Task 3: Multi-stage image built and verified (Screenshots 4–5)
-- [ ] Task 4: Image sizes compared (Screenshot 6)
-- [ ] Task 5: Analysis written (Screenshot 7 & Notes)
-- [ ] Task 6: Optional production optimizations explored
+- [ ] Assignment completed locally
+- [ ] `.dockerignore` created and verified (Screenshot 1)
+- [ ] `Dockerfile.single` created (Screenshot 2)
+- [ ] Single-stage container verified in the browser (Screenshot 3)
+- [ ] Multi-stage `Dockerfile` created (Screenshot 4)
+- [ ] Multi-stage container verified in the browser (Screenshot 5)
+- [ ] Both Docker image sizes captured (Screenshot 6)
+- [ ] Percentage reduction calculated
+- [ ] Optimization analysis completed
+- [ ] LinkedIn post URL and screenshot included
+- [ ] Full name visible in all required screenshots
 - [ ] No sensitive information exposed
+
+---
+
+## About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory), focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations through hands-on experience.
 
 ---
 

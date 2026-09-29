@@ -176,7 +176,7 @@ Connect to the Azure Linux virtual machine and confirm that the cloud-init/user 
 
 ### Screenshot 12 — SSH Connection and Completed React Deployment
 
-Add a screenshot of the SSH terminal showing a successful connection to the Azure VM and evidence that the React application deployment completed.
+Add a screenshot of SSH terminal showing successful connection to the Azure VM and evidence that the React application deployment completed such as the deployed files in `/var/www/html` or successful cloud-init output.
 
 Add your screenshot here.
 
@@ -224,10 +224,51 @@ Add your screenshot here.
 
 ---
 
+# Task 7 — Share Your Deployment Progress on LinkedIn
+
+## Goal
+
+Share your React application deployment progress and DMI Leaderboard link on LinkedIn.
+
+## Steps
+
+1. Open the DMI Leaderboard and find your name.
+2. Select **Share your progress**.
+3. Select the **LinkedIn** option.
+4. Use the generated message containing your leaderboard rank and personal progress link.
+5. Attach **Screenshot 14** showing your React application running in the browser.
+6. Add this caption:
+
+```text
+Just deployed a React application on an Azure Virtual Machine using Terraform! ☁️
+
+I provisioned the Azure infrastructure with Terraform and automated the React application deployment using cloud-init Custom Data and Nginx.
+
+Check my DMI learning progress below. 🚀
+```
+
+7. Publish the post on LinkedIn.
+
+## Evidence
+
+### Screenshot 16 — LinkedIn Post
+
+Add a screenshot of your published LinkedIn post showing:
+
+- The React application deployment screenshot
+- The generated DMI Leaderboard message
+- Your personal DMI progress link
+
+Ensure that no passwords, private keys, account IDs, access tokens, or other sensitive information are visible.
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
-- Complete Tasks 0–6 in sequence.
-- Include all 15 required screenshots exactly as specified.
+- Complete Tasks 0–7 in sequence.
+- Include all 16 required screenshots exactly as specified.
 - Ensure that your full name is visible in the required screenshots.
 - Record the VM public IP address under Task 3.
 - Ensure that the submitted evidence clearly matches the required task outputs.
@@ -268,7 +309,8 @@ Add your screenshot here.
 - [ ] Verified that Nginx is running
 - [ ] Verified the React application through the browser
 - [ ] Completed `terraform destroy` successfully
-- [ ] Captured all 15 required screenshots
+- [ ] Shared the React application deployment progress on LinkedIn by following Task 7
+- [ ] Captured all 16 required screenshots
 - [ ] Confirmed that my full name is visible in the required screenshots
 - [ ] Checked that no passwords, keys, account IDs, access tokens, or other sensitive information are exposed
 

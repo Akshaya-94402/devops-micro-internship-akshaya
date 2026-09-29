@@ -70,6 +70,20 @@ Add your screenshot here.
 
 ---
 
+# Task 4 — Share Your GitHub Setup Progress on WhatsApp Status
+
+## Goal
+
+Share your GitHub learning progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 7 — Published WhatsApp Status showing your GitHub setup message and generated DMI leaderboard progress link
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Add all required screenshots in your submission
@@ -94,6 +108,7 @@ Paste your GitHub profile URL here:
 - [ ] At least one public repository forked (Screenshot 5)
 - [ ] Professional bio added to your GitHub profile (Screenshot 6)
 - [ ] GitHub profile URL included
+- [ ] WhatsApp Status shared for Task 4
 - [ ] No passwords, codes, or authentication secrets exposed
 
 ---
