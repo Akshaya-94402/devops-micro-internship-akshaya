@@ -272,33 +272,15 @@ Add your answer here.
 
 # LinkedIn Requirement
 
-Create a LinkedIn post including:
-
-- A brief explanation of the difference between Kubernetes auto-healing and auto-scaling.
-- What happened when you deleted one Pod from the Deployment.
-- What you learned about HPA, CPU requests, and Metrics Server.
-- What you observed during the optional CPU-load test, if you completed it.
-- Why automatic scaling is useful for real applications with changing traffic.
-
-Attach one relevant screenshot showing:
-
-- The replacement Pod created during the auto-healing test, or
-- HPA status from `kubectl get hpa`, or
-- Pods increasing or being evaluated during the CPU-load test.
-
-Use relevant hashtags such as:
-
-#Kubernetes #DevOps #AutoScaling #HPA #LearningByDoing
-
-Do not expose sensitive information, cluster credentials, tokens, or kubeconfig details.
-
 ### Evidence
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
 Add your screenshot here.
 
-A draft or editing screen is not sufficient.
+#### Linkedin Post Link
+
+Add your link here
 
 ---
 
