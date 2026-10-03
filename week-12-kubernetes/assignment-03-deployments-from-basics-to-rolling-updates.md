@@ -6,7 +6,19 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this guided lab, you will create an NGINX Deployment, add a zero-downtime RollingUpdate strategy, perform an image update, roll it back, and scale the workload.
+Create an NGINX Deployment, configure RollingUpdate, update the container image, roll back to the previous revision, and scale the workload.
+
+---
+
+# Task 0 — Pre-check: Remove the Assignment 02 ReplicaSet
+
+## Goal
+
+Confirm that you are connected to your learning cluster and remove the previous ReplicaSet and its managed Pods before starting this lab.
+
+### Evidence
+
+No screenshots required.
 
 ---
 
@@ -14,11 +26,11 @@ In this guided lab, you will create an NGINX Deployment, add a zero-downtime Rol
 
 ## Goal
 
-Create the `~/k8s-labs/deployments` working directory.
+Create and enter the dedicated Deployment lab directory.
 
 ### Evidence
 
-#### Screenshot 1 — Terminal showing the `~/k8s-labs/deployments` working directory
+#### Screenshot 01 — Output of `pwd` showing the directory ending in `/k8s-labs/deployments`
 
 Add your screenshot here.
 
@@ -28,11 +40,17 @@ Add your screenshot here.
 
 ## Goal
 
-Create `nginx-deployment.yaml` with two replicas and image `nginx:1.21.1`, apply it, and verify the Deployment, ReplicaSet, and Pods.
+Create a two-replica NGINX Deployment and verify the automatically managed ReplicaSet and Pods.
 
 ### Evidence
 
-#### Screenshot 2 — Manifest plus `kubectl` output showing the Deployment, ReplicaSet, and two Pods
+#### Screenshot 02 — Completed basic `nginx-deployment.yaml` showing two replicas and the initial NGINX image
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 03 — Successful apply output and verification output showing the Deployment, its automatically created ReplicaSet, and two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
 Add your screenshot here.
 
@@ -42,11 +60,17 @@ Add your screenshot here.
 
 ## Goal
 
-Add `strategy.rollingUpdate` with `maxSurge: 1` and `maxUnavailable: 0` to the Deployment and reapply it.
+Configure RollingUpdate to maintain the desired available replica count during an image update.
 
 ### Evidence
 
-#### Screenshot 3 — Deployment YAML showing the RollingUpdate strategy and successful apply output
+#### Screenshot 04 — Updated YAML showing `RollingUpdate`, `maxSurge: 1`, and `maxUnavailable: 0`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 05 — Successful apply output and Deployment details showing the configured rolling-update strategy
 
 Add your screenshot here.
 
@@ -56,11 +80,29 @@ Add your screenshot here.
 
 ## Goal
 
-Update the image to `nginx:1.23.1` with `kubectl set image`, watch the rollout, then roll it back with `kubectl rollout undo` and check rollout history.
+Update NGINX to 1.23.1, observe the rollout, and return to the previous stable revision.
 
 ### Evidence
 
-#### Screenshot 4 — Rolling-update status, multiple ReplicaSets, and successful rollback/history output
+#### Screenshot 06 — Image-update command and rollout status showing successful completion
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 07 — ReplicaSet output showing the previous and updated ReplicaSets, and Deployment details showing `nginx:1.23.1`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 08 — Rollback command and rollout status showing successful completion
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 09 — Rollout history and Deployment details showing the restored `nginx:1.21.1` image
 
 Add your screenshot here.
 
@@ -70,39 +112,100 @@ Add your screenshot here.
 
 ## Goal
 
-Scale to five replicas, verify, then scale back to two.
+Scale the workload to five replicas and return it to two.
 
 ### Evidence
 
-#### Screenshot 5 — Terminal showing the scale-up and scale-down results
+#### Screenshot 10 — Scale-up command and output showing five Pods with `1/1` under `READY` and `Running` under `STATUS`
 
 Add your screenshot here.
 
 ---
 
-### Notes
+#### Screenshot 11 — Scale-down command and output showing the final two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Write a short note describing what the lab demonstrated.
+Add your screenshot here.
 
-Write your answer here.
+---
+
+# Task 6 — Share Your Kubernetes Deployment Progress on WhatsApp Status
+
+## Goal
+
+Share your Kubernetes Deployment learning progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Steps
+
+1. Go to the DMI Leaderboard.
+2. Find your name and select **Share your progress**.
+3. Click the **WhatsApp icon**.
+4. Copy the automatically generated leaderboard message containing your rank and progress link.
+5. Open WhatsApp and go to **Updates**.
+6. Create a new text Status.
+7. Copy and paste the message below.
+8. Insert the generated leaderboard message in the indicated place.
+9. Review and publish your Status.
+
+### WhatsApp Status Message
+
+I practiced Kubernetes Deployments as part of my DevOps learning journey! 🚀
+
+Today, I deployed NGINX, configured rolling updates, updated the container image, and rolled back to the previous version.
+
+I also scaled my Deployment from two Pods to five and back to two!
+
+[PASTE YOUR GENERATED LEADERBOARD MESSAGE AND LINK HERE]
+
+#DMIByPravinMishra #DevOps #Kubernetes
+
+### Evidence
+
+#### Screenshot 12 — Published WhatsApp Status showing your Kubernetes Deployment message and generated DMI leaderboard progress link
+
+Add your screenshot here.
+
+A draft or editing screen is not sufficient.
+
+---
+
+# Lab Summary
+
+Write a short note explaining how Deployments manage ReplicaSets, perform rolling updates and rollbacks, and scale Pods.
+
+Add your answer here.
 
 ---
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
-- Include the completed YAML manifests used in the lab
+- Include all required screenshots, numbered 01–12.
+- Ensure screenshots are clear and readable.
+- Submit the final `nginx-deployment.yaml` containing two replicas, the initial NGINX image, and the configured RollingUpdate strategy.
+- Complete the Lab Summary in your own words.
+- Include evidence of your published WhatsApp Status.
+- Do not expose passwords, tokens, private keys, or kubeconfig credentials.
 
 ---
 
 # Completion Checklist
 
-- [ ] Task 1: Lab directory created (Screenshot 1)
-- [ ] Task 2: Two-replica Deployment applied (Screenshot 2)
-- [ ] Task 3: RollingUpdate strategy configured (Screenshot 3)
-- [ ] Task 4: Image updated and rolled back (Screenshot 4)
-- [ ] Task 5: Scaled up and down (Screenshot 5)
-- [ ] Reflection notes written (Notes)
+- [ ] Completed Task 0
+- [ ] Created the deployments directory (Screenshot 01)
+- [ ] Created the basic two-replica NGINX Deployment manifest (Screenshot 02)
+- [ ] Applied the Deployment and verified its ReplicaSet and two running Pods (Screenshot 03)
+- [ ] Added RollingUpdate with `maxSurge: 1` and `maxUnavailable: 0` (Screenshot 04)
+- [ ] Applied and verified the rolling-update strategy (Screenshot 05)
+- [ ] Updated NGINX to 1.23.1 and confirmed rollout completion (Screenshot 06)
+- [ ] Inspected the ReplicaSets and verified the updated image (Screenshot 07)
+- [ ] Rolled back the update and confirmed rollout completion (Screenshot 08)
+- [ ] Reviewed rollout history and verified the restored image (Screenshot 09)
+- [ ] Scaled to five running Pods (Screenshot 10)
+- [ ] Scaled back to two running Pods (Screenshot 11)
+- [ ] Published the WhatsApp Status with the generated leaderboard progress link (Screenshot 12)
+- [ ] Submitted the final `nginx-deployment.yaml`
+- [ ] Included screenshots 01–12
+- [ ] Completed the Lab Summary
+- [ ] No sensitive data exposed
 
 ---
 
