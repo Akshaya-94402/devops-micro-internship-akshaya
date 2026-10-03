@@ -1,4 +1,4 @@
-# Assignment 9 — Kubernetes Services (LoadBalancer)
+# Assignment 09 — Kubernetes Services: LoadBalancer on AKS
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
@@ -6,118 +6,279 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this guided lab, you will provision a small AKS cluster, deploy probed NGINX Pods, expose them with a public LoadBalancer Service, test the internet endpoint, and observe readiness and scaling.
+Deploy a healthy NGINX application to Azure Kubernetes Service (AKS), expose it publicly using a LoadBalancer Service, observe readiness behavior, and scale the application behind the same public endpoint.
 
 ---
 
-# Task 1 — Provision and Connect to AKS
+# Task 1 — Create or Connect to an AKS Cluster
 
 ## Goal
 
-Create resource group `rg-aks-lb-lab` and a one-node AKS cluster `aks-lb-lab` (`westeurope`, `Standard_B2s`), then fetch credentials and verify the node.
+Create a small AKS cluster for this lab, or connect to an existing approved AKS lab cluster.
 
 ### Evidence
 
-#### Screenshot 1 — AKS creation result and Ready node output
+#### Screenshot 1 — Output of `kubectl get nodes` showing ready AKS node(s)
 
 Add your screenshot here.
-
----
-
-# Task 2 — Deploy the Probed NGINX Workload
-
-## Goal
-
-Create two healthy, probed NGINX Pods for the public Service.
-
-### Evidence
-
-#### Screenshot 2 — Successful rollout and two Ready Pods
-
-Add your screenshot here.
-
----
-
-# Task 3 — Create and Test the LoadBalancer Service
-
-## Goal
-
-Create `nginx-svc-lb` (type `LoadBalancer`, port 80), wait for `EXTERNAL-IP`, and test it with `curl`.
-
-### Evidence
-
-#### Screenshot 3 — Service with public `EXTERNAL-IP` and successful `curl` output
-
-Add your screenshot here.
-
----
-
-# Task 4 — Prove Readiness Affects Public Traffic
-
-## Goal
-
-Apply a broken readiness patch, confirm the Pod leaves the endpoint set and public availability is affected, then restore health.
-
-### Evidence
-
-#### Screenshot 4 — Endpoint changes and public `curl` behavior before and after recovery
-
-Add your screenshot here.
-
----
-
-# Task 5 — Scale Behind the Stable Public Endpoint
-
-## Goal
-
-Scale to four replicas and confirm the endpoint set grows while the public IP stays the same.
-
-### Evidence
-
-#### Screenshot 5 — Four replicas/endpoints behind the unchanged public endpoint
-
-Add your screenshot here.
-
----
-
-# Task 6 — Troubleshoot and Clean Up
-
-## Goal
-
-Resolve any pending endpoint or unhealthy backend issues, then delete the Kubernetes objects and Azure resource group when finished.
-
-### Evidence
-
-#### Screenshot 6 — Clean final verification or resource deletion command output
-
-Add your screenshot here.
-
----
 
 ### Notes
 
-Write a short note describing what the lab demonstrated.
+**1. Why does this lab use a cloud-capable Kubernetes environment such as AKS for the LoadBalancer Service?**
 
-Write your answer here.
+Add your answer here.
+
+**2. What Azure resources can Kubernetes provision when a LoadBalancer Service is created?**
+
+Add your answer here.
+
+**3. Why is it important to delete unused AKS resources after the lab?**
+
+Add your answer here.
+
+---
+
+# Task 2 — Set Up Your Lab Directory
+
+## Goal
+
+Create and enter a dedicated directory for the LoadBalancer Service manifests.
+
+### Evidence
+
+#### Screenshot 2 — Terminal showing the output of `pwd` confirming that you are working inside `~/k8s-labs/services/loadbalancer`
+
+Add your screenshot here.
+
+### Notes
+
+**1. Why is it useful to keep Kubernetes manifests organized in dedicated directories?**
+
+Add your answer here.
+
+**2. What are the names of the main Deployment and LoadBalancer Service YAML files you will create in this assignment?**
+
+Add your answer here.
+
+---
+
+# Task 3 — Deploy a Healthy NGINX Application
+
+## Goal
+
+Create a healthy NGINX Deployment with readiness and liveness probes.
+
+### Evidence
+
+#### Screenshot 3 — Completed `00-nginx-deploy.yaml` manifest
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 4 — Output showing successful rollout and two ready NGINX Pods
+
+Add your screenshot here.
+
+### Notes
+
+**1. Why must Pods be ready before they should receive public traffic?**
+
+Add your answer here.
+
+**2. What is the role of the readiness probe in this Deployment?**
+
+Add your answer here.
+
+**3. What is the role of the liveness probe in this Deployment?**
+
+Add your answer here.
+
+---
+
+# Task 4 — Create and Test the LoadBalancer Service
+
+## Goal
+
+Create a public LoadBalancer Service and verify that the NGINX application is reachable from the internet.
+
+### Evidence
+
+#### Screenshot 5 — Completed `01-nginx-svc-loadbalancer.yaml` manifest
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 6 — Output showing the Service with an assigned EXTERNAL-IP
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 7 — Successful curl output from the public IP
+
+Add your screenshot here.
+
+### Notes
+
+**1. What does `type: LoadBalancer` instruct AKS to do?**
+
+Add your answer here.
+
+**2. What public IP was assigned to your Service?**
+
+Add your answer here.
+
+**3. How does the public request eventually reach the NGINX Pods?**
+
+Add your answer here.
+
+**4. Why should you wait for EXTERNAL-IP before testing the Service?**
+
+Add your answer here.
+
+---
+
+# Task 5 — Observe How Readiness Protects Public Traffic
+
+## Goal
+
+Intentionally break readiness and observe how Kubernetes excludes unready Pods from ready Service backends while existing healthy Pods continue serving public traffic.
+
+### Evidence
+
+#### Screenshot 8 — Completed `02-readiness-broken.yaml` patch file
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 9 — Output showing the expected incomplete rollout or readiness failure
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 10 — EndpointSlice output showing ready healthy backends and the effect of the readiness failure
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 11 — Successful public curl response after recovery
+
+Add your screenshot here.
+
+### Notes
+
+**1. Why did the rollout not complete?**
+
+Add your answer here.
+
+**2. Why can the public endpoint still work while new Pods fail readiness?**
+
+Add your answer here.
+
+**3. What would happen if Kubernetes routed traffic to Pods before they were ready?**
+
+Add your answer here.
+
+**4. How did you restore the Deployment successfully?**
+
+Add your answer here.
+
+---
+
+# Task 6 — Scale the Deployment Behind the Load Balancer
+
+## Goal
+
+Scale the NGINX Deployment and confirm that more ready Pods become available behind the same public endpoint.
+
+### Evidence
+
+#### Screenshot 12 — Two ready NGINX Pods verified initially; four ready Pods verified after scaling
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 13 — Successful public curl response after scaling
+
+Add your screenshot here.
+
+### Notes
+
+**1. What changed after scaling the Deployment from two to four replicas?**
+
+Add your answer here.
+
+**2. Did the public IP change after scaling? Explain why or why not.**
+
+Add your answer here.
+
+**3. Why does scaling behind a LoadBalancer Service not require users to change the URL or IP they use?**
+
+Add your answer here.
+
+---
+
+# Task 7 — Share Your LoadBalancer Lab on LinkedIn
+
+## Goal
+
+Share what you learned about exposing an NGINX application publicly through a LoadBalancer Service on AKS.
+
+### Evidence
+
+#### Screenshot 14 — Published LinkedIn post about your LoadBalancer lab on AKS
+
+Add your screenshot here.
+
+#### LinkedIn post link
+
+Add your link here.
 
 ---
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
-- Include the completed YAML manifests used in the lab
+- Include the completed YAML files:
+  - `00-nginx-deploy.yaml`
+  - `01-nginx-svc-loadbalancer.yaml`
+  - `02-readiness-broken.yaml`
+- Add all required screenshots, numbered 1–14, under their corresponding Evidence sections.
+- Use clear, readable screenshots showing the relevant commands, configuration, and outputs.
+- Ensure your full name is visible in the required screenshots.
+- Complete the Notes for Tasks 1–6 in your own words.
+- Capture all required evidence before cleaning up Azure resources.
+- Plan or complete Azure cleanup according to your lab ownership and reuse arrangements.
+- Do not expose passwords, tokens, private keys, cluster credentials, kubeconfig contents, subscription IDs, account IDs, or infrastructure details you are not permitted to share.
 
 ---
 
 # Completion Checklist
 
-- [ ] Task 1: AKS cluster provisioned and connected (Screenshot 1)
-- [ ] Task 2: Probed NGINX Deployment applied (Screenshot 2)
-- [ ] Task 3: LoadBalancer Service created and tested (Screenshot 3)
-- [ ] Task 4: Readiness impact on public traffic proven (Screenshot 4)
-- [ ] Task 5: Scaled behind the stable endpoint (Screenshot 5)
-- [ ] Task 6: Verified / cleaned up Azure resources (Screenshot 6)
-- [ ] Reflection notes written (Notes)
+- [ ] Created or connected to an approved AKS lab cluster
+- [ ] Confirmed ready AKS node(s) (Screenshot 1)
+- [ ] Created and entered the LoadBalancer lab directory (Screenshot 2)
+- [ ] Created the NGINX Deployment manifest (Screenshot 3)
+- [ ] Verified successful rollout and two ready NGINX Pods initially (Screenshot 4)
+- [ ] Created the LoadBalancer Service manifest (Screenshot 5)
+- [ ] Verified the assigned external IP (Screenshot 6)
+- [ ] Verified successful public access using curl (Screenshot 7)
+- [ ] Created the broken readiness patch (Screenshot 8)
+- [ ] Observed the expected incomplete rollout or readiness failure (Screenshot 9)
+- [ ] Inspected EndpointSlices during the readiness failure (Screenshot 10)
+- [ ] Restored the healthy Deployment and verified public access (Screenshot 11)
+- [ ] Scaled the Deployment to four ready Pods and verified updated Service backends (Screenshot 12)
+- [ ] Verified public access after scaling (Screenshot 13)
+- [ ] Completed the Notes for Tasks 1–6
+- [ ] Published the LinkedIn post (Screenshot 14)
+- [ ] Included all required YAML files and screenshots
+- [ ] Planned or completed Azure cleanup
+- [ ] No sensitive data exposed
 
 ---
 
