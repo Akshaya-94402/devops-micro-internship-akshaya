@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this guided lab, you will create an NGINX Pod first imperatively with `kubectl run`, then declaratively with a YAML manifest, and practice inspecting, logging into, and executing commands inside the Pod.
+In this assignment, you will create an NGINX Pod using both imperative and declarative methods. You will practice creating, checking, deleting, describing, viewing logs from, and opening a shell inside a Pod.
 
 ---
 
@@ -14,11 +14,11 @@ In this guided lab, you will create an NGINX Pod first imperatively with `kubect
 
 ## Goal
 
-Create the `~/k8s-labs/pods` working directory for all Pod-related files.
+Create a clean working directory for all Pod-related files used in this lab.
 
 ### Evidence
 
-#### Screenshot 1 — Terminal showing the `~/k8s-labs/pods` working directory
+#### Screenshot 01 — Output of `pwd` showing the current directory ending in `/k8s-labs/pods`
 
 Add your screenshot here.
 
@@ -28,27 +28,53 @@ Add your screenshot here.
 
 ## Goal
 
-Create `nginx-pod` with `kubectl run --image=nginx`, verify it reaches Running, then delete it so the name can be reused by the YAML manifest.
+Create an NGINX Pod directly from the command line, verify that it is running, and delete it before continuing to the declarative method.
 
 ### Evidence
 
-#### Screenshot 2 — Terminal showing `nginx-pod` in Running state before deletion
+#### Screenshot 02 — Output of `kubectl run nginx-pod --image=nginx` showing the creation message, and `kubectl get pods` showing `nginx-pod` with `1/1` under `READY` and `Running` under `STATUS`, before deletion
 
 Add your screenshot here.
 
 ---
 
-# Task 3 — Create a Pod Declaratively
+#### Screenshot 03 — Output of `kubectl delete pod nginx-pod` showing the successful deletion message
+
+Add your screenshot here.
+
+---
+
+# Task 3 — Create a Pod Declaratively Using YAML
 
 ## Goal
 
-Write `nginx-pod.yaml` (apiVersion `v1`, kind `Pod`, label `app: nginx`, container `nginx-container` using image `nginx`, port 80), apply it, and confirm it reaches Running.
+Define the NGINX Pod in a YAML file, apply the manifest, and verify the resulting Pod.
 
 ### Evidence
 
-#### Screenshot 3 — `nginx-pod.yaml` and terminal output showing `nginx-pod` in Running state
+#### Screenshot 04 — The filename `nginx-pod.yaml` and the complete YAML manifest with clear, readable indentation
 
 Add your screenshot here.
+
+---
+
+#### Screenshot 05 — Output of `kubectl apply -f nginx-pod.yaml` showing the successful creation message
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 06 — Output of `kubectl get pods` showing the declarative `nginx-pod` with `1/1` under `READY` and `Running` under `STATUS`
+
+Add your screenshot here.
+
+---
+
+### Notes
+
+**1. What is the difference between imperative and declarative Pod creation?**
+
+Add your answer here.
 
 ---
 
@@ -56,30 +82,95 @@ Add your screenshot here.
 
 ## Goal
 
-Run `kubectl describe`, `kubectl logs`, and `kubectl exec -it ... -- /bin/bash` to inspect the Pod and browse `/usr/share/nginx/html`.
+Inspect the running Pod, view its logs, and open a shell inside the NGINX container.
 
 ### Evidence
 
-#### Screenshot 4 — Terminal showing `kubectl describe`, `kubectl logs`, or the `/usr/share/nginx/html` directory
+#### Screenshot 07 — Output of `kubectl describe pod nginx-pod` showing the Pod name, `app=nginx` label, `Running` status, container name, and NGINX image
 
 Add your screenshot here.
 
 ---
 
+#### Screenshot 08 — Output of `kFilename: `08-pod-logs.png`
+
+Add your screenshot here.
+
+If no logs appear, add a caption stating that the command completed without output.
+
+---
+
+#### Screenshot 09 — Container shell opened using `kubectl exec -it nginx-pod -- /bin/bash`, showing `cd /usr/share/nginx/html`, `pwd`, and `ls -la`, with the directory path and default NGINX files visible before exiting
+
+Add your screenshot here.
+
+---
+
+### Task 5 — Share Your First Kubernetes Pod on WhatsApp Status
+
+**Goal**
+
+Share your Kubernetes learning progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+**Steps**
+
+1. Go to the DMI Leaderboard.
+2. Find your name and select **Share your progress**.
+3. Click the **WhatsApp icon**.
+4. Copy the automatically generated leaderboard message containing your rank and progress link.
+5. Open WhatsApp and go to **Updates**.
+6. Create a new text Status.
+7. Copy and paste the message below.
+8. Add the generated leaderboard message in the indicated place.
+9. Review and publish your Status.
+
+**WhatsApp Status Message**
+
+I created my first Kubernetes Pod as part of my DevOps learning journey! 🚀
+
+Today, I deployed an NGINX Pod using both imperative kubectl commands and a declarative YAML manifest.
+
+I also checked its status, inspected its details, viewed its logs, and accessed the container shell.
+
+[PASTE YOUR GENERATED LEADERBOARD MESSAGE AND LINK HERE]
+
+#DMIByPravinMishra #DevOps #Kubernetes
+
+**Screenshots Required**
+
+- **Screenshot 10 — `10-whatsapp-status.png`:** Published WhatsApp Status showing your Kubernetes Pod message and generated DMI leaderboard progress link.
+
+---
+
 # Submission Instructions
 
-- Add all required screenshots in your submission
-- Include the completed `nginx-pod.yaml` manifest
+- Add all required screenshots to this submission template.
+- Use the specified screenshot numbers and filenames.
+- Ensure all screenshots are clear and readable.
+- Submit the completed `nginx-pod.yaml` manifest as a separate file.
+- Explain the difference between imperative and declarative Pod creation in your own words.
+- Do not expose passwords, access tokens, or private keys.
 
 ---
 
 # Completion Checklist
 
-- [ ] Task 1: Lab directory created (Screenshot 1)
-- [ ] Task 2: Pod created imperatively, verified, and deleted (Screenshot 2)
-- [ ] Task 3: Pod created declaratively and verified Running (Screenshot 3)
-- [ ] Task 4: Pod inspected via describe/logs/exec (Screenshot 4)
-- [ ] Understood the difference between imperative and declarative methods
+- [ ] Created `~/k8s-labs/pods` (Screenshot 01)
+- [ ] Created `nginx-pod` imperatively and confirmed it reached the `Running` state (Screenshot 02)
+- [ ] Deleted the imperative Pod (Screenshot 03)
+- [ ] Created `nginx-pod.yaml` with the required manifest (Screenshot 04)
+- [ ] Applied the YAML manifest (Screenshot 05)
+- [ ] Confirmed the declarative Pod reached the `Running` state (Screenshot 06)
+- [ ] Inspected the Pod using `kubectl describe` (Screenshot 07)
+- [ ] Viewed container logs using `kubectl logs` (Screenshot 08)
+- [ ] Accessed the container shell and inspected the NGINX files (Screenshot 09)
+- [ ] Exited the container shell
+- [ ] Published the WhatsApp status (Screenshot 10)
+- [ ] Added Screenshot 10b if the caption was published separately
+- [ ] Submitted all required screenshots with the correct filenames
+- [ ] Submitted the `nginx-pod.yaml` file
+- [ ] Explained the difference between imperative and declarative methods
+- [ ] No sensitive data exposed
 
 ---
 
