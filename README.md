@@ -79,8 +79,8 @@ Week 02 → Agentic AI with Claude Code
 Week 03 → Linux & Bash for DevOps
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+Week 04 → Git & GitHub 
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -134,7 +134,7 @@ Week 03 → Linux & Bash for DevOps
 | 01 | Success Mindset |✅Completed|✅Solved |https://lnkd.in/p/dxrkM7Rx|https://medium.com/@akshayabheemanathi75/week-01-building-my-mindset-os-for-long-term-growth-d87e67fb1542?sharedUserId=akshayabheemanathi75|
 | 02 | Agentic AI with Claude Code |✅Completed|✅Solved|https://lnkd.in/p/dHwQ2T27|https://medium.com/@akshayabheemanathi75/week-02-reflection-agentic-ai-37b0c4c514dd?sharedUserId=akshayabheemanathi75|
 | 03 | Linux & Bash for DevOps |✅Completed|✅Solved|https://lnkd.in/p/d4Hssnq3|https://medium.com/@akshayabheemanathi75/week-03-journey-exploring-linux-bash-scripting-and-ai-assisted-incident-triage-dmi-cohort-3-553f9cb07830?sharedUserId=akshayabheemanathi75|
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Git & GitHub |✅Completed|✅Solved|https://lnkd.in/p/dPJw4VeA|https://medium.com/@akshayabheemanathi75/my-devops-learning-journey-week-04-git-github-for-devops-engineers-of-the-devops-micro-36ddecd854d4?sharedUserId=akshayabheemanathi75|
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
